@@ -5,8 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.navigation.compose.rememberNavController
-import mx.joshh.appsipinna.ui.navigation.RietiNavGraph
-import mx.joshh.appsipinna.ui.theme.RietiTheme
+import mx.joshh.appsipinna.view.navigation.RietiNavGraph
+import mx.joshh.appsipinna.view.theme.RietiTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
